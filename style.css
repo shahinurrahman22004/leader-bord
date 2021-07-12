@@ -23,6 +23,47 @@ hr {
     border: 1px solid #d1d1d1;
     margin: 20px 0 20px 0;
 }
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* heading area  */
+
+header.menu-area {
+    background-color: blue;
+}
+.menu-container{
+    padding: 0 13%;
+}
+.menu {
+  justify-content: space-between;
+  display: flex;
+}
+.logo-area {
+    display: flex;
+    cursor: pointer;
+}
+.logo-area img {
+    width: 30px;
+    height: 33px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.logo-area h3 {
+    color: #fff;
+}
+.flex-head {
+    display: flex;
+}
+.flex-head li {
+    padding: 10px 20px;
+}
+.flex-head li a {
+    color: #fff;
+    font-size: 16px;
+}
 /* top player style */
 
 
@@ -60,7 +101,6 @@ hr {
 
 .blog {
     display: flex;
-    width: 50%;
     height: auto;
 }
 
