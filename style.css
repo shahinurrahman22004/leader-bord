@@ -35,6 +35,7 @@ li {
 header.menu-area {
     background-color: blue;
     position: fixed;
+    left: 0;
     top: 0;
     width: 100%;
 }
